@@ -1,5 +1,8 @@
 name: Deploy Pages
 
+permissions:
+  contents: write
+
 on:
   # 推送时执行
   push:
