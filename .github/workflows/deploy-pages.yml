@@ -79,7 +79,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }} #Gitee私钥
         with:
-          source-repo: git@github.com:MMF9702/MMF9702.github.io.git #GitHub 源仓库地址
+          source-repo: https://github.com/MMF9702/MMF9702.github.io #GitHub 源仓库地址
           destination-repo: git@gitee.com:QRF858/QRF858.git #Gitee 目标仓库地址
       # 2、部署 Gitee Pages
       - name: Deploy Gitee Pages
