@@ -4,11 +4,11 @@ import { metaData } from './constants';
 export const head: HeadConfig[] = [
   ['link', { rel: 'icon', href: '/favicon.ico' }],
   ['meta', { name: 'author', content: 'Charles7c' }],
-  ['meta', { name: 'keywords', content: 'MMF的知识库, 知识库, 博客, Charles7c' }],
+  ['meta', { name: 'keywords', content: 'MMF的知识库, 知识库, 博客, MMF' }],
 
   ['meta', { name: 'HandheldFriendly', content: 'True' }],
   ['meta', { name: 'MobileOptimized', content: '320' }],
-  ['meta', { name: 'theme-color', content: '#3c8772' }],
+  ['meta', { name: 'theme-color', content: '#ffc300' }],
 
   ['meta', { property: 'og:type', content: 'website' }],
   ['meta', { property: 'og:locale', content: metaData.locale }],
