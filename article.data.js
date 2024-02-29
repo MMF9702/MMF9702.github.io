@@ -8,13 +8,11 @@ export default {
   watch: ['./docs/**/*.md'],
   load(watchedFiles) {
     // 排除不必要文件
-    const articleFiles = watchedFiles.filter(file => {
+      const articleFiles = watchedFiles.filter(file => {
       const filename = path.basename(file);
       return !excludedFiles.includes(filename);
     });
     // 解析文章 Frontmatter
-    console.log("= = = = = = = = = = = = = = = =");
-    console.log(articleFiles);
     return articleFiles.map(articleFile => {
       const articleContent = fs.readFileSync(articleFile, 'utf-8');
       const { data } = parseFrontmatter(articleContent);
