@@ -73,7 +73,6 @@
     for (let i = 0; i < articleData.length; i++) {
       const article = articleData[i];
       const articleTags = article.tags;
-      console.log(articleTags);
       if (Array.isArray(articleTags)) {
         articleTags.forEach((articleTag) => {
           if (!tags[articleTag]) {

@@ -13,6 +13,8 @@ export default {
       return !excludedFiles.includes(filename);
     });
     // 解析文章 Frontmatter
+    console.log("= = = = = = = = = = = = = = = =");
+    console.log(articleFiles);
     return articleFiles.map(articleFile => {
       const articleContent = fs.readFileSync(articleFile, 'utf-8');
       const { data } = parseFrontmatter(articleContent);
