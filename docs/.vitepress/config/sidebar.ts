@@ -14,6 +14,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   '/courses/java/': getItems("courses/java"),
   '/courses/mysql/': getItems("courses/mysql"),
   '/courses/mybatis/': getItems("courses/mybatis"),
+  '/courses/auto_test_framework/': getItems("courses/auto_test_framework")
 }
 
 /**

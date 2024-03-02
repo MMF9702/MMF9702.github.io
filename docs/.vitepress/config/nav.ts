@@ -17,7 +17,8 @@ export const nav: DefaultTheme.Config['nav'] = [
     items: [
       { text: 'Java基础快速入门', link: '/courses/java/index', activeMatch: '/courses/java/' },
       { text: 'MySQL快速入门', link: '/courses/mysql/index', activeMatch: '/courses/mysql/' },
-      { text: 'MyBatis快速入门', link: '/courses/mybatis/index', activeMatch: '/courses/mybatis/' }
+      { text: 'MyBatis快速入门', link: '/courses/mybatis/index', activeMatch: '/courses/mybatis/' },
+      { text: '自动化测试框架的搭建', link: '/courses/auto_test_framework/index', activeMatch: '/courses/auto_test_framework/' }
     ],
     activeMatch: '/courses/'
   },
