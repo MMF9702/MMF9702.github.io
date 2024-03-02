@@ -8,7 +8,7 @@ export default {
   watch: ['./docs/**/*.md'],
   load(watchedFiles) {
     // 排除不必要文件
-    const articleFiles = watchedFiles.filter(file => {
+      const articleFiles = watchedFiles.filter(file => {
       const filename = path.basename(file);
       return !excludedFiles.includes(filename);
     });
