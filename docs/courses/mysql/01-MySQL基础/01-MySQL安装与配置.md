@@ -1,7 +1,7 @@
 ---
 title: MySQL安装与配置
-author: 查尔斯
-date: 2022/10/22 21:25
+author: MMMF
+date: 2024/02/22 21:25
 categories:
  - MySQL快速入门
 tags:

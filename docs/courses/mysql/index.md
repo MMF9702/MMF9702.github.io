@@ -1,7 +1,7 @@
 ---
 title: MySQL快速入门
-author: 查尔斯
-date: 2022/10/22 21:21
+author: MMF
+date: 2024/01/22 21:21
 categories:
  - MySQL快速入门
 tags:

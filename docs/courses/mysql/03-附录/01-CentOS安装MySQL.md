@@ -1,7 +1,7 @@
 ---
 title: CentOS 8.2 安装 MySQL 5.7.39
-author: 查尔斯
-date: 2022/10/22 21:30
+author: MMF
+date: 2024/02/26 21:30
 categories:
  - MySQL快速入门
 tags:
